@@ -31,7 +31,7 @@ function processGuess(numGuessed, numCreated) {
     do { // Until you win the game
         attemptedGuesses.push(numGuessed);
         if (numGuessed == numCreated) { // Won the game
-            if (bestGameScore == null) {  // Won th first Game
+            if (bestGameScore == null) {  // Won the first Game
                 alert(`${userName}, You guessed ${numGuessed} correctly.\nGreat Job!\n\nIt only took you ${numAttempts} attempts.\nYour guesses were...  ${attemptedGuesses}`);
                 bestGameScore = numAttempts;
             }
